@@ -1,0 +1,42 @@
+
+
+/* iPad */
+@media only screen and (max-width:1024px){
+    .wrapper{
+        width: 100%;
+    }
+    .side-menu-and-banner .side-menu{
+        display: none;
+    }
+    .side-menu-and-banner .banner{
+        width: 100%;
+    }
+}
+
+/* Tab */
+@media only screen and (max-width:768px){
+    .wrapper .main-menu>ul{
+        flex-direction: column;
+    }
+    .wrapper .main-menu>ul>li>ul{
+        display: block;
+        position: static;
+        margin-left: 50px;
+        border-left: 3px solid orange;
+    }
+    .wrapper .main-menu>ul>li>ul>li>a{
+        background: transparent;
+        color: white;
+    }
+}
+
+
+/* Mobile */
+@media only screen and (max-width:480px){
+    
+}
+
+/* iPhone */
+@media only screen and (max-width:320px){
+    
+}
